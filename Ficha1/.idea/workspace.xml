@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b076bbeb-959f-446c-8b5d-d6c5794fc856" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/Ficha0.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/out/production/Ficha0/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ficha0/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FichaPratica1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/FichaPratica1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TabelaComCaracteristicasDasClasses.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/TabelaComCaracteristicasDasClasses.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ficha2/Ficha2/src/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ficha2/Ficha2/src/Aula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ficha2/Ficha2/src/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diagrama.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diagrama.uml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +19,14 @@
     <session id="-851904798">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -44,13 +43,13 @@
         <counts>
           <entry key="JAVA/" value="2" />
           <entry key="java" value="6" />
-          <entry key="uml" value="2" />
+          <entry key="uml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="6" />
-          <entry key="UML" value="4" />
+          <entry key="UML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -61,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -78,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aluno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -100,14 +99,43 @@
               <ID>JAVA</ID>
               <OriginalElement />
               <nodes>
-                <node x="0.0" y="273.0">Professor</node>
-                <node x="269.0" y="273.0">Aluno</node>
-                <node x="0.0" y="0.0">Aula</node>
+                <node x="242.0" y="0.0">Professor</node>
+                <node x="0.0" y="0.0">Aluno</node>
+                <node x="105.0" y="201.0">Aula</node>
               </nodes>
               <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="-270.0" y="-44.0" />
-              <SelectedNodes />
+              <edges>
+                <edge source="Aula" target="Aluno">
+                  <point x="-111.125" y="-114.5" />
+                  <point x="120.875" y="181.0" />
+                  <point x="27.75" y="181.0" />
+                  <point x="-83.25" y="70.5" />
+                </edge>
+                <edge source="Professor" target="Aula">
+                  <point x="83.25" y="70.5" />
+                  <point x="436.25" y="181.0" />
+                  <point x="343.125" y="181.0" />
+                  <point x="111.125" y="-114.5" />
+                </edge>
+                <edge source="Aula" target="Professor">
+                  <point x="47.625" y="-114.5" />
+                  <point x="279.625" y="161.0" />
+                  <point x="325.25" y="161.0" />
+                  <point x="-27.75" y="70.5" />
+                </edge>
+                <edge source="Aluno" target="Aula">
+                  <point x="83.25" y="70.5" />
+                  <point x="194.25" y="181.0" />
+                  <point x="216.125" y="181.0" />
+                  <point x="-15.875" y="-114.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.2231866825208084" x="-30.43268525451049" y="80.94036755308105" />
+              <SelectedNodes>
+                <node>Professor</node>
+                <node>Aula</node>
+                <node>Aluno</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
                 <Category>Constructors</Category>
@@ -149,11 +177,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="288" />
-    <option name="y" value="-22" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -180,19 +207,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551275660140" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551275677304" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -233,15 +260,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551272904141</updated>
-      <workItem from="1551272914962" duration="2744000" />
+      <workItem from="1551272914962" duration="2794000" />
+      <workItem from="1551395999180" duration="114000" />
+      <workItem from="1551396137571" duration="3000" />
+      <workItem from="1551438871486" duration="1000" />
+      <workItem from="1551440370097" duration="4000" />
+      <workItem from="1551737953009" duration="27000" />
+      <workItem from="1551864300777" duration="113000" />
+      <workItem from="1551864753636" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2744000" />
+    <option name="totallyTimeSpent" value="4166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -249,12 +283,8 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.51859957" />
       <window_info id="Structure" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -262,15 +292,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,13 +315,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -312,11 +340,18 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="207.0" y="236.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="207.0" y="237.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -327,20 +362,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Diagrama.uml">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="0.0" y="273.0">Professor</node>
-            <node x="269.0" y="273.0">Aluno</node>
-            <node x="0.0" y="0.0">Aula</node>
+            <node x="242.0" y="0.0">Professor</node>
+            <node x="0.0" y="0.0">Aluno</node>
+            <node x="105.0" y="201.0">Aula</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-270.0" y="-44.0" />
-          <SelectedNodes />
+          <edges>
+            <edge source="Aula" target="Aluno">
+              <point x="-111.125" y="-114.5" />
+              <point x="120.875" y="181.0" />
+              <point x="27.75" y="181.0" />
+              <point x="-83.25" y="70.5" />
+            </edge>
+            <edge source="Professor" target="Aula">
+              <point x="83.25" y="70.5" />
+              <point x="436.25" y="181.0" />
+              <point x="343.125" y="181.0" />
+              <point x="111.125" y="-114.5" />
+            </edge>
+            <edge source="Aula" target="Professor">
+              <point x="47.625" y="-114.5" />
+              <point x="279.625" y="161.0" />
+              <point x="325.25" y="161.0" />
+              <point x="-27.75" y="70.5" />
+            </edge>
+            <edge source="Aluno" target="Aula">
+              <point x="83.25" y="70.5" />
+              <point x="194.25" y="181.0" />
+              <point x="216.125" y="181.0" />
+              <point x="-15.875" y="-114.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2231866825208084" x="-30.43268525451049" y="80.94036755308105" />
+          <SelectedNodes>
+            <node>Professor</node>
+            <node>Aula</node>
+            <node>Aluno</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
@@ -353,17 +424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aluno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

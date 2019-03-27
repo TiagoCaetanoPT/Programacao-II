@@ -2,17 +2,16 @@ package Modelo;
 
 import java.util.LinkedList;
 
-public class Aula {
-    private String nome;
-    private long numero;
+public class Aula extends Identificador{
+    // Atributos
     private String sumario;
     private Professor professor;
     LinkedList<Aluno> alunos;
     private Horario horario;
 
     public Aula(String nome, long numero, Horario horario, Professor professor, LinkedList<Aluno> alunos){
-        this.nome = nome;
-        this.numero = numero;
+        // O super tem de ser sempre a 1ª linha
+        super(nome, numero); // Herda da classe identificador
         this.sumario = "";
         setProfessor(professor);
         this.alunos = new LinkedList<>(alunos);
@@ -77,21 +76,10 @@ public class Aula {
         return sumario;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public long getNumero() {
-        return numero;
-    }
-
     public LinkedList<Aluno> getAlunos() {
         return new LinkedList<>(alunos);
     }
 
-    public void setNumero(long numero) {
-        this.numero = numero;
-    }
 
     public Horario getHorario(){
         return horario;

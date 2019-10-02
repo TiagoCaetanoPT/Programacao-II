@@ -1,0 +1,21 @@
+=================================================================================================
+											Encapsolamento
+=================================================================================================
+
+- Propriedades devem ser privadas.
+
+- Métodos devem ser publicos.
+
+
+
+Tipos de Acessores
+-------------------------
+Get - aceder ao valor de uma propriedade.
+Set - Alterar o valor de uma propriedade.
+Is - Saber se é verdadeiro ou falso o valor da propriedade.
+As - Tem qualquer coisa.
+
+
+
+Sempre que exista um construtor mais completo utiliza-se o this()
+(O menos completo usa o mais completo)
